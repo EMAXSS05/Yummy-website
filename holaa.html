@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f3eb;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f8f3eb;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #8d1616;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #8d1616;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            max-width: 1200px;
+        }
+        section {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        aside {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+        aside h1 {
+            font-size: 36px;
+            color: #8d1616;
+        }
+        aside button {
+            padding: 10px 20px;
+            border: 2px solid #8d1616;
+            background: transparent;
+            color: #8d1616;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        aside button:hover {
+            background-color: #8d1616;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Yummy</div>
+        <nav>
+            <a href="#quienes-somos">Who we are</a>
+            <a href="#ofertas">What we offer</a>
+            <a href="#socios">Partners</a>
+            <a href="#aplicar">How to apply</a>
+            <a href="#reunion">Book a meeting</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="https://via.placeholder.com/600x400" alt="Imagen de un pie de manzana">
+        </section>
+        <aside>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, soluta?</h1>
+            <button>Show me more</button>
+        </aside>
+    </main>
+</body>
+</html>
