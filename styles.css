@@ -105,6 +105,10 @@ aside{
     align-items: center;
     flex-wrap: wrap;
     width: 50%;
+
+}
+aside:nth-of-type(1){
+    background-color: rgb(248, 246, 233);
 }
 aside>h1{
     
@@ -123,6 +127,7 @@ aside>p{
     text-align: center;
 }
 section:nth-of-type(3){
+    background-color: rgb(248, 246, 233);
     margin-top: 100px;
     width: 100%;
     display: flex;
@@ -132,6 +137,7 @@ section:nth-of-type(3){
     text-align: center;
     color:#590209
 }
+
 section>a{
     text-decoration: none;
     padding: 12px;
@@ -141,10 +147,11 @@ section>a{
 }
 
 section:nth-of-type(4){
-    width: 85%;
+    width: 100%;
     display: flex;
    justify-content: center;
     margin:auto;
+    background-color: rgb(248, 246, 233);
 }
 article{
     display: flex;
@@ -162,7 +169,19 @@ article>p{
 
 section:nth-of-type(5){
     width: 100%;
+    background-color:rgb(248, 246, 233, 0.5);
 }
+section:nth-of-type(5)::after{
+    content: "";
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 49.1%;
+    background: rgb(248, 246, 233, 0.5); /* Capa negra con 50% de transparencia */
+    /* Permite interactuar con la imagen a pesar del overlay */
+  }
+
 section>img{
     width: 100%;
 }
@@ -191,6 +210,10 @@ section:nth-of-type(7){
 }
 section:nth-of-type(7)>article>p{
     margin: 16px;
+    
+}
+section:nth-of-type(7)>article>{
+    background-color: rgb(248, 246, 233);
 }
 ol{
     display: flex;
